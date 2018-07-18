@@ -1,0 +1,4 @@
+// ex.: replace everything between double quotes, change the quotes to anything else
+// <span class="test">abb "Cdd-Eff.ghh" 1AAA</span>
+
+$('.test').text().replace(/("([^"]|"")*")/g,'asdf');
